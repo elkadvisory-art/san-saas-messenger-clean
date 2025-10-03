@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@/src/lib/prisma"; // nếu lỗi alias, tạm dùng: ../../../../src/lib/prisma
+import { prisma } from "../../../../src/lib/prisma";
 
 export async function GET() {
   try {
