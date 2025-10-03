@@ -1,4 +1,5 @@
-import { prisma } from "../../../../src/lib/prisma";
+import { NextResponse } from "next/server";
+import { prisma } from "@/src/lib/prisma";
 export async function GET() {
   try {
     const count = await prisma.page.count();
